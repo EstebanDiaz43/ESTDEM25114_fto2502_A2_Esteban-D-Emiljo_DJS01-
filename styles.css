@@ -1,0 +1,65 @@
+/* Basic css for website */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.Header-top {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+#Header-logo {
+  height: 30px;
+  width: 30px;
+}
+
+.Header-title {
+  font-size: 20px;
+  color: #333333;
+  margin: 5px 0px 5px 15px;
+}
+.Header-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+#Header-search-button {
+  align-items: center;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.Header-search-icon {
+  height: 15px;
+  width: 15px;
+  padding: auto;
+}
+
+#user-profile-btn {
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.user-profile-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.main-content {
+  display: flex;
+
+  padding: 20px;
+}
