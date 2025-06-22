@@ -1,11 +1,15 @@
 /* Basic css for website */
 
+/* Body */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
 }
+
+/* Header */
 
 .Header-top {
   display: flex;
@@ -58,8 +62,40 @@ body {
   width: 30px;
 }
 
+/* Main Content */
+
 .main-content {
   display: flex;
-
+  flex-direction: column;
   padding: 20px;
+}
+
+/* Filter Section */
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.genredropdownContainer {
+  align-items: center;
+  margin-left: 30px;
+}
+
+#genreDropdown {
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+}
+
+#lastUpdatedDropdown {
+  padding: 5px 10px 5px 10px;
+  margin-left: 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
 }
