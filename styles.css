@@ -108,8 +108,25 @@ body {
   gap: 20px;
 }
 
+.podcast-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: left;
+}
+
 .podcast-image {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+.GenreText {
+  display: flex;
+  font-size: 12px;
+  background-color: #9e97972e;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-radius: 7px;
 }

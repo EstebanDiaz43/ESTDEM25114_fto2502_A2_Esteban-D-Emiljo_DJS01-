@@ -1,5 +1,16 @@
 // Example genres
-const genres = ["All Genres", "Action", "Comedy", "Drama", "Horror", "Sci-Fi"];
+const genres = [
+  "All Genres",
+  "Personal Growth",
+  "Investigative Journalism",
+  "History",
+  "Comedy",
+  "Entertainment",
+  "Fiction",
+  "News",
+  "Kids and Family",
+];
+
 // Call the dropdown creation function after DOM is loaded
 window.addEventListener("DOMContentLoaded", () => {
   createGenreDropdown(
